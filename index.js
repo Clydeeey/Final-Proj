@@ -40,3 +40,11 @@ function euclidean () {
         console.log(euclid)
     }
 }
+function percentage() {
+
+    let percent = document.getElementById("percent").value;
+
+    let num = document.getElementById("num").value;
+    document.getElementById("result")
+        .value = (num / 100) * percent;
+}
