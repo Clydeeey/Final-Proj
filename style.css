@@ -1,0 +1,64 @@
+body {
+    background-image: url('background.jpg');
+}
+.textBox {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #fff;
+    padding: 10px;
+    background: rgb(120, 169, 233);
+}
+.buttons { 
+    border: 1px solid #444;
+    border-left: none;
+    border-radius: 3px;
+    margin-left: 0;
+    margin-top: 10px;
+    padding: 5px 12px;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    min-height: 30px;
+    resize: none;
+    line-height: normal;
+    font-weight: 300;
+    font-size: 1.2em;
+    background-color: #444;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+.buttons :hover {
+    color: aliceblue;
+}
+button {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+.title {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.transition1 a {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    margin-left: 30%;
+}
+.transition {
+    margin-left: 10%;
+
+}
+.inputs {
+    margin-top: 20%;
+    margin-left: 33%;
+}
+.results {
+    font-size: 50px;
+    margin-left: 10%;
+    align-items: left;
+}
