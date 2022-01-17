@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Water Tracker</h1>
+        <div class="inputs">
+            <div>
+                <label><b>Height(m):</b>
+                <input type="number" id="heightId" placeholder="meters" required>
+                </label>
+            </div>
+        </div>
+    <button  onclick="solve()">Show Table</button>
+    <label class="results" id="bmiResult">BMI:</label>
+    
+
+    <script>
+        function solve() {
+            let height = document.getElementById('heightId').value
+            let totalBmi = 0
+            let startWeight = 1
+            let endWeight = 200
+
+            while (startWeight <= endWeight ) {
+                totalBmi = startWeight / (height * height);
+                startWeight += 1
+                console.log("Start Weight: " + startWeight + " BMI:" + totalBmi)
+            }
+        } 
+    </script>
+</body>
+</html>
